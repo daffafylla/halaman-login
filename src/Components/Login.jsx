@@ -5,6 +5,7 @@ import { useNavigate } from "react-router-dom";
 import Swal from "sweetalert2";
 import "../Style/register.css";
 
+
 export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -39,7 +40,7 @@ export default function Login() {
   return (
     <div className="body1 md:text-base lg:h-100vh sm:text-sm">
       <div className="container1">
-        <h3>Login</h3>
+       <pre>  <h3>        Login</h3> </pre>
         <form onSubmit={register} method="POST">
           
           <label>Email</label>

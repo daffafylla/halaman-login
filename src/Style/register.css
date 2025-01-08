@@ -109,7 +109,7 @@ a {
     color: #fafafa;
     margin-bottom: 30px;
     text-transform: uppercase;
-    border-bottom: 4px solid blue;
+    border-bottom: 4px solid orange
 }
 .container1 label{
     text-align: left;
@@ -121,7 +121,7 @@ a {
     margin-bottom: 15px;
     border: none;
     background-color: transparent;
-    border-bottom: 2px solid blue;
+    border-bottom: 2px solid orange;
     color: #fff;
     font-size: 20px;
 }
@@ -130,7 +130,7 @@ a {
     height: 40px;
     padding: 5px 0;
     border: none;
-    background-color:blue;
+    background-color:orange;
     font-size: 18px;
     color: #fafafa;
     border-radius: 20px;

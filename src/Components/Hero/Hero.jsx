@@ -1,7 +1,7 @@
 import React from "react";
 import { FaStar, FaYoutube } from "react-icons/fa";
-import HeroImg from "../../assets/dora-hero.png";
-import HeroImg2 from "../../assets/dora.png";
+import HeroImg from "../../assets/6300659101759293397.jpg";
+import HeroImg2 from "../../assets/6300659101759293395.jpg";
 import HeroBottom from "./HeroBottom";
 import { IoClose } from "react-icons/io5";
 
@@ -107,14 +107,15 @@ const Hero = () => {
                 height="260"
                 src="https://www.youtube.com/embed/i9e9Xz4OHig?si=rZ_k0qUIcjUIPUH_"
                 title="YouTube video player"
-                frameborder="0"
+              
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
               ></iframe>
             </div>
           </div>
         </div>
-      )}
+      )
+      }
     </>
   );
 };

@@ -39,7 +39,7 @@ export default function Register() {
   return (
     <div className="body1 md:text-base lg:h-100vh sm:text-sm">
       <div className="container1">
-        <h3>Registrasi</h3>
+       <pre><h3>   Registrasi</h3> </pre>
         <form onSubmit={register} method="POST">
           <label>Username</label>
           <br />
